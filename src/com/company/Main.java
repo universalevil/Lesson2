@@ -12,6 +12,7 @@ public class Main {
         ConnectionManager invokingConnManager = new ConnectionManager();
         invokingConnManager.GetConnection();
 
+        //2.4
         BaseClass b = new subBaseClass();
         b.method1();
 
