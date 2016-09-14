@@ -7,10 +7,13 @@ public class Main {
     public static void main(String[] args) {
         ;
 
-        //1.1.
-        String result;
-        int j=1;
-        Connection inv = new Connection(j);
+        //1.4
+
+        ConnectionManager invokingConnManager = new ConnectionManager();
+        invokingConnManager.GetConnection();
+
+        BaseClass b = new subBaseClass();
+        b.method1();
 
     }
 

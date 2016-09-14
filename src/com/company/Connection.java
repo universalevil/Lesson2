@@ -6,8 +6,8 @@ package com.company;
 public class Connection {
 
     //1.1.
-    Connection (int i)
-    {};
+    Connection ()
+    {int n;};
 
     String str11 = "This is a field";
 
