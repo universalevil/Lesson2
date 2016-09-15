@@ -23,12 +23,7 @@ public class ConnectionManager {
 
         int arrayLength;
         arrayLength = array.length;
-        /*for (int i = 1; i < arrayLength + 1; i++)
-        {System.out.println("Array's element #: "+ i + "  " + array[i-1] + "  " + arrayLength);
-          if (i == arrayLength + 1)
-          {System.out.println ("no more elements in array");
-          break;}
-        }*/
+
 
     for (int i = 1; i <= arrayLength; i++) {
         System.out.println("Array's element #: " + i + "  " + array[i - 1] + "  lenght is " + arrayLength);

@@ -14,7 +14,8 @@ public class BaseClass {
     };
 
     public static void method2 (){
-        String str2 = "printing 2nd methid line";
+        String str2 = "printing 2nd method line";
+        System.out.println (str2);
     };
 
 
@@ -27,6 +28,7 @@ class subBaseClass extends  BaseClass{
 
         public static void method2 (){
             String str2 = "printing 2nd methid line from subclass";
+            System.out.println (str2);
         };
 
         //2.4
